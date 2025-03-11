@@ -1,0 +1,153 @@
+/* General Reset and Base Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 100%);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  background-size: cover;
+}
+
+/* Container Styling */
+.container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 700;
+  color: #ffe66d;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #ff9f1c;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ff8200;
+  transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+  border-color: #ffe66d;
+  color: #ffe66d;
+  border-radius: 25px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ffe66d;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2b2d42;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ff6b6b;
+}
+
+.nav-link {
+  color: #edf2f4;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: #ff9f1c;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #7209b7, #3f37c9);
+  padding: 60px 20px;
+  border-radius: 0 0 50px 50px;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: #222;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #4ecdc4;
+  font-size: 1.3rem;
+}
+
+.card-text {
+  color: #d3d3d3;
+}
+
+/* Footer */
+footer {
+  background-color: #7209b7;
+  padding: 20px;
+  color: #fff;
+  border-radius: 50px 50px 0 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .hero {
+    padding: 40px 15px;
+  }
+}
